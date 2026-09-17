@@ -1,27 +1,27 @@
 class Greeg < Formula
   desc "A grep for coding agents: indexed, syntax-aware, budgeted"
   homepage "https://github.com/thiagodmont/greeg"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/thiagodmont/greeg/releases/download/v#{version}/greeg-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "845e682370f1e02034abfac9c3b3e8a02612dfe19aa78db659e94ef7b1ee7748"
+      sha256 "1dfdfbdd918333c88a2719aa33b21451a294428b76e3cac5943f0e0b53a557b8"
     end
     on_intel do
       url "https://github.com/thiagodmont/greeg/releases/download/v#{version}/greeg-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "97f975bcbe4cc7d466d62f3e64a61664f3c9aa5182fdf1bc5d471623b80f12cc"
+      sha256 "73f89f3252962412023bc0f4c89a13898175a74f2225365d057bf07a5b672ca4"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/thiagodmont/greeg/releases/download/v#{version}/greeg-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cf5fd3f08863e250ce599fc61c391fa442a67120b0106cc05f433e2ff6f04a52"
+      sha256 "71db1e7b77d84363da1522f08ec0e2be8a1d02ab9db163095c21f6f4aeb9064a"
     end
     on_intel do
       url "https://github.com/thiagodmont/greeg/releases/download/v#{version}/greeg-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "200f1d2259a0d14909c0232a6b0f4627e7da4f9a593c9ea6578101dd40374fe4"
+      sha256 "f7f924608f79076b1c6b02c1ba8945ea1ab23d6ea61b20e03ee85791ed844d37"
     end
   end
 
